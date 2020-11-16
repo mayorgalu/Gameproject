@@ -1,4 +1,5 @@
 let readlineSync = require("readline-sync");
+csont prompt = require("Did you read the instructions how to play?")
 
 console.log(
   "Welcome to Hogwarts School: Quiddich Tournament! Slytherin v. Griffindorf"
@@ -24,3 +25,7 @@ switch (option) {
     console.log("You fell off your broom!");
     console.log('Get up, Harry!: "Quit messin\' around."');
 }
+
+let GrabMagicBroom = {value:0, tool: "Magic Broom"},
+    ZoomUp = {value:0, action: "Zoom up"}
+    
